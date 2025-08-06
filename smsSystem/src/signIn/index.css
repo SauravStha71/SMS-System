@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100vh;
+    overflow: hidden; 
+  }
+  
+  
+  .login-page {
+    display: flex;
+    height: 100vh;
+    width:100vw 
+  }
+  
+  
+  .form-container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B0D3E5;
+    height: 100%;
+  }
+  
+  
+  .form-box {
+    width: 400px;
+    height: 450px;
+    padding: 2rem;
+    background: linear-gradient(to top, #a9c9db, #FFFFFF);
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  .title{
+    font-size:x-large ;
+    font-weight: 500;
+    color: #0f3763;
+  
+  }
+  
+  .login{
+    font-size:large;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #0f3763;
+    padding-top: 10%;
+    
+  }
+  
+  
+  .form-content {
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  
+  .form-box input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+    border: 1px solid #f2f3f8;
+    border-radius: 25px;
+    box-shadow: 0px 1px 3px;
+  }
+  
+  .form-box input:focus {
+    border-color: #3D6983; /* Border color on focus */
+    background-color: #fff; /* White background on focus */
+  }
+  
+  .form-box input[type="text"],
+  .form-box input[type="password"] {
+    background-color: #f9fafb; /* Ensures light background color */
+  }
+  
+  .form-box button {
+    width: 30%;
+    padding: 10px;
+    background: #0f3763;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    box-shadow: -5px -5px 10px whitesmoke, 3px 3px 8px black;
+  }
+  
+  .form-box button .active {
+    background-color: #77b5d8;
+    color: rgb(252, 253, 253);
+    border-radius: 20px;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: #122f4e;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: right;
+  }
+  
+  .image-container {
+    width: 50%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .image-container img {
+    width: 100%; 
+    height: 100%; 
+    
+  }

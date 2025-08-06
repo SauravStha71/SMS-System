@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+body, html {
+  background-color: rgb(255, 255, 255);
+  margin: 0;
+  padding:0;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: stretch; /* Ensures content expands properly */
+  max-height: 100%;
+}
